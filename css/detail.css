@@ -1,0 +1,217 @@
+.d_con{
+	width: 100%;
+	
+}
+.d_con .d_body{
+	width: 1240px;
+	margin: 0 auto;
+}
+.d_con .d_body h2{
+	font-size: 10px;
+	font-weight: normal;
+	background-color: #fff;
+}
+.d_con .d_body .d_img{
+	
+    width: 450px;
+   
+    
+	}
+.d_con .d_body .d_img img{
+	width: 450px;
+	height: 420px;
+
+}
+.d_con .d_body .d_img  div img{
+	width:80px;
+	height:60px;
+	border-radius:4px;
+	margin: 5px 20px;
+
+	}
+/*半透明*/
+.d_con .d_body .d_img  .alpha{
+	 filter:alpha(Opacity=20);
+	 -moz-opacity:0.2;
+	 opacity:0.2;
+}
+.d_con .d_body .d_text{
+	width: 780px;
+  
+	
+}
+.d_con .d_body .d_text .title{
+	width: 780px;
+	height: 42px;
+	
+	}
+.d_con .d_body .d_text .title h1{
+	font-weight: 400px;
+	font-size: 28px;
+	}
+.d_con .d_body .d_text .desc{
+	position: relative;
+    font-size: 12px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+	}
+.d_con .d_body .d_text .price{
+	margin-bottom: 8px;
+	}
+.d_con .d_body .d_text .price .price_pro{
+	float: left;
+	color: #ca141d;
+    font-size: 18px;
+	}
+.d_con .d_body .d_text .price .price_pro label{
+	padding-right: 8px;
+	}
+.d_con .d_body .d_text .price .price_activity{
+	float: left;
+	}
+.d_con .d_body .d_text .price .price_activity .price_list{
+	padding: 0 0 0 20px;
+    height: 28px;
+    float: left;
+    cursor: pointer;/*手型*/
+	}
+.price_list li{
+	float: left;
+    line-height: 28px;
+    margin-right: 20px;
+	}
+.d_con .d_body .d_text .line{
+	font-size: 1px;
+    line-height: 1px;
+    height: 0;
+    border-bottom: 1px solid #ddd;
+}
+.d_con .d_body .d_text .hr-16{
+	height: 16px;
+}
+.d_con .d_body .d_text .d_select{
+	clear: both;
+	
+}
+.d_con .d_body .d_text .d_selected{
+	
+	width:120px;
+	height: 30px;
+	margin: 15px 5px;
+	
+	
+}
+
+.d_con .d_body .d_text .d_select span{
+	  font-size: 12px;
+	  float: left;
+	  margin: 10px 5px;
+	  padding: 15px 0;
+}
+.d_con .d_body .d_text .d_select span:nth-child(3):hover,
+.d_con .d_body .d_text .d_select  span:nth-child(2):hover{
+		outline: solid;
+	/*鼠标移动到边框出现边框*/
+	outline-color: red;
+	}
+.d_con .d_body .d_text .d_select span:nth-child(1){
+	 
+	}
+.d_con .d_body .d_text .d_select span:nth-child(2){
+	 
+	  padding: 15px 70px;
+	  border:1px solid #ddd;
+	  cursor: pointer;
+	}
+.d_con .d_body .d_text .d_select span:nth-child(3){
+	 
+	  padding: 15px 70px;
+	  border:1px solid #ddd;
+	  cursor: pointer;
+	}
+
+.d_con .d_body .d_text .d_selgods {
+	display: block;
+	clear: both;
+	padding-top:40px;
+	}
+.d_con .d_body .d_text .d_selgods label{
+	line-height: 1.5;
+    float: left;
+    width: 75px;
+	}
+.d_con .d_body .d_text .d_selgods p{
+	color: rgb(202, 20, 29);
+	float: left;
+    width: 548px;
+	}
+.d_con .d_body .d_text .d_addcar{
+	padding: 10px 0px;
+	margin-bottom: 50px;
+}
+.d_con .d_body .d_layout{
+	width: 1240px;
+    top: 30px;
+	
+}
+.d_con .d_body .d_layout .d_h1{
+	width: 100px;
+	margin: 0 auto;
+	padding: 60px 0;
+	}
+.d_con .d_body .d_layout .d_h1 h1{
+	font-weight: normal;
+	font-size: 18px;
+	
+	}
+	
+
+.d_con .d_body .d_layout .ul_wrap{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 3;
+	
+}
+.d_con .d_body .d_layout .ul_con{
+	width: 1240px;
+}
+.d_con .d_body .d_layout .ul_con ul{
+	float: left;
+	width: 1240px; /*固定轮播的宽度，使多出的部分消失*/
+}
+/*滚动图片放在li中*/
+.d_con .d_body .d_layout ul {
+	position: relative; /*设置耳朵基于ul  定位*/
+}
+.d_con .d_body .d_layout ul li{
+	width: 290px;	
+	float: left;
+	/*height: 270px;*/
+	margin-right: 22px;	
+	border: 1px solid #e6e9e9;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	overflow: hidden;  /*图片放大图片放大超出部分隐藏*/
+	
+}
+.d_con .d_body .d_layout ul li img{
+	
+	width: 100px; /*设置图片宽度自适应*/
+	transition: all 0.5s;  /*图片放大前过渡*/
+}
+.d_con .d_body .d_layout ul li img:hover{
+	transform: scale(1.2);  /*图片放大*/
+	
+}
+/*设置第4个li  每轮到4个就没有向右的间距*/
+.d_con .d_body .d_layout ul li:nth-child(4n+4){
+	margin-right: 0;
+}
+.d_con .d_body .d_layout ul li h3{
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;	
+}

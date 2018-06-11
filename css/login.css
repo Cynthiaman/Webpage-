@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+.login_container {
+	background-color: #eee;
+	background-size: 100%;
+	padding: 50px 40px;
+}
+
+.login_body {
+	width: 1240px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 15px;
+	padding-bottom: 60px;
+}
+
+.login_body h2 {
+	font-weight: normal;
+	font-size: 18px;
+	padding: 30px 20px;
+}
+
+.login_body .login_area {
+	margin: 0 auto;
+	padding-top: 60px;
+	width: 400px;
+}
+
+.login_body input {
+	width: 400px;
+	height: 45px;
+	font-size: 18px;
+	padding-left: 10px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+
+.login_body .login_area input:hover {
+	outline: solid;
+	/*鼠标移动到边框出现边框*/
+	outline-color: #a6c8ff;
+}
+
+.code {
+	width: 250px !important;
+	height: 45px;
+}
+
+.login_body .login_area .img_co {}
+
+.login_body .login_area button {
+	background-color: lightblue;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	width: 400px;
+	height: 50px;
+}
+
+.login_body .login_area button:hover {
+	background-color: dodgerblue;
+}

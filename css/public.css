@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*公共样式*/
+body {
+	font: 12px Verdana;
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+ul,ul li{
+	list-style: none;
+}
+/*设置a标签*/
+a{
+	text-decoration: none;
+	color: #333;;
+}
+
+input,textarea{
+	outline: none;
+}
+/*图片没有边框
+     图片垂直*/
+img{
+	border: none;
+	vertical-align: middle;  
+}
+
+/*清除浮动--也可以用伪类来清除浮动*/
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	
+}
+.clearfix{
+	*+height: 1%;
+}
+
+
+
+

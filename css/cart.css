@@ -1,0 +1,119 @@
+.c_header
+{
+	
+	width: 1240px;
+	margin: 0 auto;
+	
+}
+.c_header .c_logo{
+    float: left;
+    margin-right: 40px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+	width: 150px;
+	height: 60px;
+}
+.c_header span{
+	margin-left: 26px;
+    font-size: 22px;
+    line-height: 50px;
+}
+.c_con{
+	width: 100%;
+	background-color: #EEEEEE;
+    margin-top: 50px;
+   
+}
+.c_con .c_body{
+	width:1240px;
+	margin: 0 auto;
+	
+	
+}
+
+.c_con .c_body .c_login{
+	border: 1px solid #eace85;
+    background: #fffdee;
+    color: #ca141d;
+    line-height: 48px;
+    padding: 0 20px;
+   
+	}
+.c_con .c_body .c_login a{
+	width: 70px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    background: #ca141d;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 2px;
+	}
+
+.c_con .c_body .hr-20{
+	clear: both;
+    font-size: 1px;
+    line-height: 1px;
+    height: 20px;
+}
+.c_con .c_body .c_list{
+	margin: 0;
+	padding: 0;
+	
+}
+.c_con .c_body .c_list .c_end,
+.c_con .c_body .c_list .c_title{
+	background: #fff;
+    line-height: 40px;
+    padding-left: 40px;
+    color: #a4a4a4;
+	}
+.c_con .c_body .c_list .c_end label,
+.c_con .c_body .c_list .c_title label{
+	float: left;
+    width: 150px;
+	}
+
+.c_con .c_body .c_list .c_title li{
+	float: left;
+    width: 140px;
+    margin-left: 30px;
+    min-height: 14px;
+    text-align: center;
+   
+	
+}
+.c_con .c_body .c_list .c_title li:nth-child(1){
+	  margin-right: 30px;
+	  width: 200px;
+	  text-align: left;
+	}
+	
+.c_con .c_body .c_list .c_title label img{
+	width: 100px;
+	height: 100px;
+	}
+
+.c_con .c_body .c_list .c_end .c_botton{
+	float: right;
+}
+.c_con .c_body .c_list .c_end .c_botton span{
+	width:100px;
+    color: red;
+	margin: 0 10px;
+	}
+
+.c_con .c_body .c_list .c_end .c_botton a{
+	width: 140px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    background: #ca151e;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+	}
+.hr-50{
+	height: 50px;
+}
